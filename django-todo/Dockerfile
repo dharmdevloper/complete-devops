@@ -1,6 +1,8 @@
 FROM python:3.8-slim-buster
 
-WORKDIR /djangoapp
+Env djangotodo
+
+WORKDIR django-todo
 
 COPY requirements.txt .
 
